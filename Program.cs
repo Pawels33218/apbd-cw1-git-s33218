@@ -16,3 +16,11 @@ if (b % 2 != 0)
     throw new ArgumentException("Kwadrat liczby nie jest parzysty");
 }
 
+public class StaticsHelper
+{
+    public static double CalculateAverage(int[] vals)
+    {
+        if (vals == null || vals.Length == 0) return 0;
+        return vals.Average();
+    }
+}
