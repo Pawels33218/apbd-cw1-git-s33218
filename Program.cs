@@ -2,6 +2,7 @@
 
 Console.WriteLine("Moja pierwsza modyfikacja");
 
+Console.WriteLine("Zmiana kodu");
 if (true)
 {
     Console.WriteLine("Pierwszy warunek logiczny");
@@ -34,4 +35,5 @@ public class StaticsHelper
         if (vals == null || vals.Length == 0) return 0;
         return vals.Min();
     }
+    
 }
