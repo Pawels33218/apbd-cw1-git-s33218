@@ -2,6 +2,7 @@
 
 Console.WriteLine("Moja pierwsza modyfikacja");
 
+Console.WriteLine("Zmiana kodu");
 Console.WriteLine("Moja druga zmiana tego kodu zeby wszedl konflikt");
 if (true)
 {
