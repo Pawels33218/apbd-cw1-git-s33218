@@ -29,4 +29,9 @@ public class StaticsHelper
         return vals.Max();
 
     }
+    public static int CalculateMin(int[] vals)
+    {
+        if (vals == null || vals.Length == 0) return 0;
+        return vals.Min();
+    }
 }
