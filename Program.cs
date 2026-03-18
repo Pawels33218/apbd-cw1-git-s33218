@@ -23,4 +23,10 @@ public class StaticsHelper
         if (vals == null || vals.Length == 0) return 0;
         return vals.Average();
     }
+    public static int CalculateMax(int[] vals)
+    {
+        if (vals == null || vals.Length == 0) return 0;
+        return vals.Max();
+
+    }
 }
